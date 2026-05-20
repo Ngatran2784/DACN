@@ -1,0 +1,17 @@
+[2026-04-13 12:22:05,590][rl4co.utils.utils][INFO] - Enforcing tags! <cfg.extras.enforce_tags=True>
+[2026-04-13 12:22:05,622][rl4co.utils.utils][INFO] - Printing config tree with Rich! <cfg.extras.print_config=True>
+[2026-04-13 12:22:06,048][rl4co.tasks.train][INFO] - Instantiating environment <rl4co.envs.TSPEnv>
+[2026-04-13 12:22:08,541][rl4co.tasks.train][INFO] - Instantiating model <rl4co.models.AttentionModel>
+[2026-04-13 12:22:08,954][rl4co.models.nn.attention][INFO] - Using default scaled_dot_product_attention for PointerAttention
+[2026-04-13 12:22:09,048][rl4co.tasks.train][INFO] - Instantiating callbacks...
+[2026-04-13 12:22:09,049][rl4co.utils.instantiators][INFO] - Instantiating callback <lightning.pytorch.callbacks.ModelCheckpoint>
+[2026-04-13 12:22:09,061][rl4co.utils.instantiators][INFO] - Instantiating callback <lightning.pytorch.callbacks.RichModelSummary>
+[2026-04-13 12:22:09,062][rl4co.utils.instantiators][INFO] - Instantiating callback <lightning.pytorch.callbacks.RichProgressBar>
+[2026-04-13 12:22:09,062][rl4co.utils.instantiators][INFO] - Instantiating callback <rl4co.utils.callbacks.speed_monitor.SpeedMonitor>
+[2026-04-13 12:22:09,068][rl4co.utils.instantiators][INFO] - Instantiating callback <lightning.pytorch.callbacks.LearningRateMonitor>
+[2026-04-13 12:22:09,069][rl4co.tasks.train][INFO] - Instantiating loggers...
+[2026-04-13 12:22:09,070][rl4co.utils.instantiators][INFO] - Instantiating logger <lightning.pytorch.loggers.wandb.WandbLogger>
+[2026-04-13 12:22:09,076][rl4co.tasks.train][INFO] - Instantiating trainer...
+[2026-04-13 12:22:09,121][rl4co.tasks.train][INFO] - Logging hyperparameters!
+[2026-04-13 12:45:16,427][rl4co.utils.utils][INFO] - Output dir: C:\Users\hoang\Downloads\rl4co-main\rl4co-main\logs\train\runs\tsp50\am-tsp50\2026-04-13_12-22-05
+[2026-04-13 12:45:16,432][rl4co.utils.utils][INFO] - Closing loggers...
